@@ -28,6 +28,11 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { motion, AnimatePresence } from 'framer-motion';
 import { keyframes } from '@mui/system';
+import easypassDashboard from './images/easypass-dashboard.png';
+import easypassQr from './images/easypass-qr.png';
+import easypassQueue from './images/easypass-queue.png';
+import taskmateDashboard from './images/taskmate-dashboard.png';
+import foodiefinderHome from './images/foodiefinder-home.png';
 
 // Animations
 const float = keyframes`
@@ -411,22 +416,22 @@ function AppContent() {
         "Session monitoring",
         "Secure check-in process"
       ],
-      github: "https://github.com/cole-naomi/EasyPass",
+      github: "https://github.com/runocole/EasyPass",
       demo: "Coming soon",
       role: "Solo Developer",
       images: [
         {
-          url: "/images/easypass-dashboard.png",
+          url: easypassDashboard,
           title: "Admin Dashboard",
           description: "Comprehensive overview of examination sessions"
         },
         {
-          url: "/images/easypass-qr.png",
+          url: easypassQr,
           title: "QR Code Verification",
           description: "Quick and secure student check-in"
         },
         {
-          url: "/images/easypass-queue.png",
+          url: easypassQueue,
           title: "Queue Management",
           description: "Real-time queue status and updates"
         }
@@ -457,7 +462,7 @@ function AppContent() {
       role: "Full Stack Developer",
       images: [
         {
-          url: "/images/taskmate-dashboard.png",
+          url: taskmateDashboard,
           title: "Task Dashboard",
           description: "Overview of all tasks and priorities"
         },
@@ -498,7 +503,7 @@ function AppContent() {
       role: "Backend Developer",
       images: [
         {
-          url: "/images/foodiefinder-home.png",
+          url: foodiefinderHome,
           title: "Home Page",
           description: "Discover trending restaurants and dishes"
         },
@@ -600,9 +605,10 @@ function AppContent() {
                 lineHeight: 1.6,
               }}
             >
-              Hello, Naomi here.
-              A fullstack developer passionate about building user-centric web applications 
-              that make a difference.
+            Hi, I’m Cole Naomi. <br></br>
+            I enjoy building clean and user-friendly digital experiences, 
+            from simple websites to full-featured applications. <br></br>
+            I’m always learning, growing, and creating — one project at a time.
             </Typography>
             <Box sx={{ 
               display: 'flex', 
@@ -630,7 +636,7 @@ function AppContent() {
                 <GitHubIcon />
               </IconButton>
               <IconButton 
-                href="https://linkedin.com/in/coleoritse"
+                href="https://linkedin.com/in/runocole"
                 target="_blank"
                 sx={{ color: 'primary.main' }}
               >
