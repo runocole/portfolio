@@ -32,6 +32,8 @@ import easypassDashboard from './images/easypass-dashboard.png';
 import easypassQr from './images/easypass-qr.png';
 import easypassQueue from './images/easypass-queue.png';
 import taskmateDashboard from './images/taskmate-dashboard.png';
+import taskmateMobile from './images/taskmate-mobile.png';
+import taskmateCreate from './images/taskmate-creation.png';
 import foodiefinderHome from './images/foodiefinder-home.png';
 
 // Animations
@@ -457,7 +459,7 @@ function AppContent() {
         "Cross-device sync",
         "Collaborative sharing"
       ],
-      github: "https://github.com/cole-naomi/taskmate",
+      github: "https://github.com/runocole/TaskMate",
       demo: "https://taskmate.vercel.app",
       role: "Full Stack Developer",
       images: [
@@ -467,14 +469,14 @@ function AppContent() {
           description: "Overview of all tasks and priorities"
         },
         {
-          url: "/images/taskmate-tasks.png",
-          title: "Task Management",
-          description: "Detailed task view and editing"
+          url: taskmateMobile,
+          title: "Account Creation Page",
+          description: "View of the sign up page"
         },
         {
-          url: "/images/taskmate-mobile.png",
-          title: "Mobile View",
-          description: "Responsive design for on-the-go access"
+          url: taskmateCreate,
+          title: "Confirmatory page",
+          description: "Confirmed after signing up"
         }
       ],
       icon: <TaskIcon sx={{ fontSize: 40, color: '#FFC0CB' }} />
@@ -498,7 +500,7 @@ function AppContent() {
         "Restaurant analytics",
         "Social features"
       ],
-      github: "https://github.com/cole-naomi/foodiefinder",
+      github: "https://github.com/runocole/FoodieFinder-Inspired",
       demo: "https://foodiefinderapp.vercel.app",
       role: "Backend Developer",
       images: [
@@ -933,7 +935,7 @@ function AppContent() {
         }}
       >
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          © 2024 Cole Naomi Oritsemeyiwa. All rights reserved.
+          © 2025 Cole Naomi Oritsemeyiwa. All rights reserved.
         </Typography>
       </Box>
     </Box>
