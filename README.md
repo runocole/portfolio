@@ -5,8 +5,6 @@ Built with **React**, it showcases my projects, skills, and a bit about who I am
 
 ### Features
 - Dark mode toggle
-- Smooth animations
-- Baby pink aesthetic
 - Fully responsive
 - Projects + Contact section
 
